@@ -5,7 +5,7 @@ function UseStateErrorEx() {
     let title = "randon title"; // its initial value is Random title
     const handleClick= ()=> {
 
-        title = " My name is Shubham ";
+        title = " ";
         console.log(title);
         
     }
