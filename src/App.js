@@ -1,10 +1,13 @@
 import React from 'react';
-import UseStateCounter from './tutorial/UseStateCounter';
-import UseEffectBasics from './tutorial/UseEffectBasics';
+import LearnJSON from './tutorial/LearnJSON';
+//import UseStateCounter from './tutorial/UseStateCounter';
+//import UseEffectBasics from './tutorial/UseEffectBasics';
+//import Forms from './tutorial/Forms';
 function App() {
   return (<div className="container">
-    <h2>Advance react JS</h2>
-    <UseEffectBasics />
+  <LearnJSON/>
+    {/*<Forms/> */}
+    {/*<UseEffectBasics/>*/}
    {/*} <UseStateCounter />*/}
     
   </div>
