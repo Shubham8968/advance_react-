@@ -1,4 +1,4 @@
-import React, {useState, usestate} from 'react'
+import React, {useState} from 'react'
 // Use state is a named import so we must must must have the curly braces 
 
 function UsestateBasic() {
@@ -16,7 +16,7 @@ function UsestateBasic() {
         <div>
             <>
                 <h1>{day}</h1>
-                <button type="button" className="btn" onclick={handleClick}>
+                <button type="button" className="btn" onClick={handleClick}>
                     Change my day
                  </button> 
             </>            
