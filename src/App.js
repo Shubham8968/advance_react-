@@ -1,10 +1,11 @@
 import React from 'react';
-import UseStateCounter from './Tutorial/UseStateCounter';
+import UseStateCounter from './tutorial/UseStateCounter';
+import UseEffectBasics from './tutorial/UseEffectBasics';
 function App() {
   return (<div className="container">
     <h2>Advance react JS</h2>
-
-    <UseStateCounter />
+    <UseEffectBasics />
+   {/*} <UseStateCounter />*/}
     
   </div>
   );
