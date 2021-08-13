@@ -6,13 +6,28 @@ import NavBar from './NavBar'
 import People from './People'
 import Person from './Person'
 import {BrowserRouter as Router, Route, Switch } from "react-router-dom" //we want to use our router in our web page so that we would require 
+import { help } from 'yargs'
     //a router which can route our components to there respective Links and we would also require some kind of switch to enable or disable our router 
-localhost3000/
+// we can use either way Unique path routes or we can Exact keyword
 function ReactRouterDom() {
     return (
-        <div>
-            <h1>We are Learning about React Router Dom</h1>
-        </div>
+        <Router>
+            <Route exact path="/home">
+                <Home />
+            </Route>
+            <Route path="/about">
+                <About />
+            </Route>
+            <Route path="/error">
+                <Error />
+            </Route>
+            <Route path="/people">
+                <People />
+            </Route>
+
+
+        </Router>
+        
     )
 }
 

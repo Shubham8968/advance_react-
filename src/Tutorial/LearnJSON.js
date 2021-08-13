@@ -1,40 +1,38 @@
 import React from 'react'
 import axios from 'axios'
 
-function LearnJSON() {
-    const handleClick = (b) =>{
-        const promise = axios.post(" http://localhost:4000/users" ,{
-            name: "Shubham marzara"},{
-                headers: {
-                    ['content-type']: 'application/json' // setting  the server
-
-                }}
-        )
-        promise.then(response => {
-            console.log(response) // this is used to console log our response from th server 
-        })
-        promise.catch(error => {
-            console.error(error); //this os used to console our error incase we get one 
-        })
-        let c=b;
-        console.log(c);
-
-    }
-        const getUsers =() => {
-            axios.get(" http://localhost:4000/users" ).then (users =>{{/* we are getting the data from our json server and then consoling the array of the objects */}
-            console.log(users);
-
-            })
+function LearningJSON() {
+    const handleClick=(b) =>{
+        const promise =axios.post("http://localhost:4000/users",{ //setting the port code
+            name:"paras"}, // set data that we want
+        {headers:{
+            ['content-type']:'application/json' // setting server type
         }
+    })
+
+    promise.then(response =>{
+        console.log(response);
+    })
+    promise.catch(error =>{
+        console.log(error);
+    })
+    let c=b;
+    console.log(c);
+}
+
+    const getUsers = () =>{
+        axios.get("http://localhost:4000/users").then(users =>{  //getting data from json file and store it in users and console i
+            console.log(users);
+        })
+    }
+
     return (
         <>
-        <h2> Random Title </h2>
-        <button type="button" className='btn' onClick={handleClick}> 
-        Post User</button>
-        <button type="button" className='btn' onClick={getUsers}>get Users</button>    
-        </>
+        <button type="button" className="btn" onClick={handleClick}>post users</button>
+        <button type="button" className="btn" onClick={getUsers}>get users</button>
 
+        </>
     )
 }
 
-export default LearnJSON
+export default LearningJSON

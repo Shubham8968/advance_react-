@@ -1,5 +1,5 @@
 import React from 'react';
-import Index from "./tutorial/Reducer/Index"
+import Index from "./tutorial/Reducer";
 //import LearnJSON from './tutorial/LearnJSON';
 //import Forms from './tutorial/Forms';
 function App() {
