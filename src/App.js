@@ -1,16 +1,15 @@
 import React from 'react';
-import Index from "./tutorial/Reducer";
-//import LearnJSON from './tutorial/LearnJSON';
-//import Forms from './tutorial/Forms';
-function App() {
-  return (<div className="container">
-  <Index/>
-    {/*<Forms/> */}
-    {/*<UseEffectBasics/>*/}
-   {/*} <UseStateCounter />*/}
+import ReactRouterDom from './tutorial/React-Router';
+
+
+function App(){
+    return(
+        <div className='container'>
     
-  </div>
-  );
+      <ReactRouterDom />
+      
+        </div>
+    );
 }
 
 export default App;

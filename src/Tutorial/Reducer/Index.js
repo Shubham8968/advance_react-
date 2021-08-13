@@ -1,5 +1,5 @@
 import React, { useState, useReducer } from 'react'
-import Modal from './modal'
+import Modal from './Modal'
 import { data } from "../data"
 import { reducer } from './Reducer'
 
