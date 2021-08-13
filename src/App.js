@@ -1,11 +1,10 @@
 import React from 'react';
-import LearnJSON from './tutorial/LearnJSON';
-//import UseStateCounter from './tutorial/UseStateCounter';
-//import UseEffectBasics from './tutorial/UseEffectBasics';
+import Index from "./tutorial/Reducer/Index"
+//import LearnJSON from './tutorial/LearnJSON';
 //import Forms from './tutorial/Forms';
 function App() {
   return (<div className="container">
-  <LearnJSON/>
+  <Index/>
     {/*<Forms/> */}
     {/*<UseEffectBasics/>*/}
    {/*} <UseStateCounter />*/}

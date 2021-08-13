@@ -18,13 +18,20 @@ function LearnJSON() {
         })
         let c=b;
         console.log(c);
+
     }
+        const getUsers =() => {
+            axios.get(" http://localhost:4000/users" ).then (users =>{{/* we are getting the data from our json server and then consoling the array of the objects */}
+            console.log(users);
+
+            })
+        }
     return (
         <>
         <h2> Random Title </h2>
         <button type="button" className='btn' onClick={handleClick}> 
         Post User</button>
-        {/*<button type="button" className='btn' onClick={getUsers}>get Users</button> */}    
+        <button type="button" className='btn' onClick={getUsers}>get Users</button>    
         </>
 
     )

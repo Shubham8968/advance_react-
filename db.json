@@ -1,8 +1,36 @@
 {
-    "users":[
-        {
-            "name": "shubham",
-            "id":1
-        }
-    ]
+  "users": [
+    {
+      "name": "shubham",
+      "id": 1
+    },
+    {
+      "name": "Shubham marzara",
+      "id": 2
+    },
+    {
+      "name": "Shubham marzara",
+      "id": 3
+    },
+    {
+      "name": "Shubham marzara",
+      "id": 4
+    },
+    {
+      "name": "Shubham marzara",
+      "id": 5
+    },
+    {
+      "name": "Shubham marzara",
+      "id": 6
+    },
+    {
+      "name": "Shubham marzara",
+      "id": 7
+    },
+    {
+      "name": "Shubham marzara",
+      "id": 8
+    }
+  ]
 }
